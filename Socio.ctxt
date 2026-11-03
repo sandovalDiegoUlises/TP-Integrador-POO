@@ -1,0 +1,30 @@
+#BlueJ class context
+#Sun Nov 01 18:13:15 ART 2026
+comment0.target=Socio
+comment0.text=\r\n Write a description of class Socio here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=p_dniSocio p_nombre p_diasPrestamo
+comment1.target=Socio(int, java.lang.String, int)
+comment1.text=\r\n Constructor for objects of class Socio\r\n
+comment10.target=java.util.ArrayList getPrestamos()
+comment11.params=p_prestamo
+comment11.target=boolean agregarPrestamo(Prestamo)
+comment12.params=p_prestamo
+comment12.target=boolean quitarPrestamo(Prestamo)
+comment13.target=int cantLibrosPrestados()
+comment14.target=java.lang.String toString()
+comment15.target=boolean puedePedir()
+comment16.target=java.lang.String soyDeLaClase()
+comment2.params=p_dniSocio p_nombre p_diasPrestamo p_prestamos
+comment2.target=Socio(int, java.lang.String, int, java.util.ArrayList)
+comment3.params=p_dniSocio
+comment3.target=void setDniSocio(int)
+comment4.params=p_nombre
+comment4.target=void setNombre(java.lang.String)
+comment5.params=p_diasPrestamo
+comment5.target=void setDiasPrestamo(int)
+comment6.params=p_prestamos
+comment6.target=void setPrestamos(java.util.ArrayList)
+comment7.target=int getDniSocio()
+comment8.target=java.lang.String getNombre()
+comment9.target=int getDiasPrestamo()
+numComments=17
