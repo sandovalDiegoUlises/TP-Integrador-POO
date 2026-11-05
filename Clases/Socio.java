@@ -23,6 +23,7 @@ public abstract class Socio
         this.setDniSocio(p_dniSocio);
         this.setNombre(p_nombre);
         this.setDiasPrestamo(p_diasPrestamo);
+        this.setPrestamos(new ArrayList<Prestamo>());
     }
     
     public Socio(int p_dniSocio, String p_nombre, int p_diasPrestamo, ArrayList<Prestamo> p_prestamos)
@@ -78,7 +79,13 @@ public abstract class Socio
     }
     
     public int cantLibrosPrestados() {
-        return this.getPrestamos().size();
+        int totalLibros = 0;
+        for(Prestamo p : this.getPrestamos()){
+            if(p.getFechaDevolucion() == null){
+                totalLibros ++;
+            }
+        }
+        return totalLibros;
     }
     
     public String toString(){
