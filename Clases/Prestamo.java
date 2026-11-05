@@ -1,11 +1,8 @@
 import java.util.Calendar;
-import java.text.SimpleDateFormat;
 
 /**
- * Write a description of class Prestamo here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author De Weert Lautaro
+ * @version 5/11/2026
  */
 public class Prestamo
 {
@@ -17,7 +14,7 @@ public class Prestamo
     public Prestamo(Calendar p_fechaRetiro, Calendar p_fechaDevolucion, Libro p_libro)
     {
         this.setFechaRetiro(p_fechaRetiro);
-        this.setFechaDevolucion(p_fechaDevolucion);
+        this.setFechaDevolucion(null);
         this.setLibro(p_libro);
     }
 
